@@ -1,0 +1,20 @@
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+
+.icons {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.icons > div {
+    cursor: pointer;
+}
+
+img {
+    width: 20px;
+}
